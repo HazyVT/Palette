@@ -1,0 +1,2922 @@
+{"data":[
+  [
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "atk", "value": "2100" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "300" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "race", "value": "Thunder" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "400" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "1800" }
+  ],
+  [
+    { "type": "race", "value": "Beast" },
+    { "type": "atk", "value": "1000" },
+    { "type": "def", "value": "900" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" }
+  ],
+  [
+    { "type": "def", "value": "2200" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Psychic" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "2200" }
+  ],
+  [
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "def", "value": "2700" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "600" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "frametype", "value": "normal" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "def", "value": "900" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Plant" },
+    { "type": "atk", "value": "2700" }
+  ],
+  [
+    { "type": "race", "value": "Insect" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "atk", "value": "2900" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "600" }
+  ],
+  [
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "atk", "value": "1500" },
+    { "type": "def", "value": "600" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "attributes", "value": "wind" }
+  ],
+  [
+    { "type": "type", "value": "Token" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "race", "value": "Thunder" },
+    { "type": "def", "value": "3000" },
+    { "type": "atk", "value": "1200" }
+  ],
+  [
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "atk", "value": "2300" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "type", "value": "Token" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "2300" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "atk", "value": "100" },
+    { "type": "def", "value": "1200" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "atk", "value": "2400" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "3000" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "race", "value": "Aqua" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "700" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "def", "value": "3000" }
+  ],
+  [
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "def", "value": "100" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "700" },
+    { "type": "race", "value": "Cyberse" }
+  ],
+  [
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "400" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "atk", "value": "1100" },
+    { "type": "frametype", "value": "fusion_pendulum" }
+  ],
+  [
+    { "type": "race", "value": "Beast" },
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "1800" },
+    { "type": "def", "value": "2200" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "900" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "def", "value": "300" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "1300" },
+    { "type": "race", "value": "Dragon" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "def", "value": "1200" },
+    { "type": "type", "value": "Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual" },
+    { "type": "atk", "value": "2100" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "race", "value": "Creator-God" },
+    { "type": "def", "value": "1200" }
+  ],
+  [
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "frametype", "value": "link" },
+    { "type": "def", "value": "2900" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "3000" },
+    { "type": "race", "value": "Rock" }
+  ],
+  [
+    { "type": "def", "value": "1700" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "race", "value": "Plant" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "atk", "value": "1400" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "def", "value": "2800" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "atk", "value": "2200" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Dragon" }
+  ],
+  [
+    { "type": "race", "value": "Reptile" },
+    { "type": "def", "value": "1700" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "atk", "value": "1400" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "def", "value": "1200" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "atk", "value": "1100" }
+  ],
+  [
+    { "type": "frametype", "value": "normal" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Token" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "def", "value": "2400" },
+    { "type": "atk", "value": "2300" }
+  ],
+  [
+    { "type": "race", "value": "Beast-Warrior" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "def", "value": "1000" },
+    { "type": "atk", "value": "2700" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "effect_pendulum" }
+  ],
+  [
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "2900" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "race", "value": "Plant" },
+    { "type": "atk", "value": "2200" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "race", "value": "Fish" },
+    { "type": "atk", "value": "1500" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "def", "value": "900" }
+  ],
+  [
+    { "type": "atk", "value": "1100" },
+    { "type": "def", "value": "600" },
+    { "type": "race", "value": "Plant" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "attributes", "value": "wind" }
+  ],
+  [
+    { "type": "def", "value": "300" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "atk", "value": "1100" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "def", "value": "2300" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "atk", "value": "1300" }
+  ],
+  [
+    { "type": "frametype", "value": "trap" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "1100" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "def", "value": "1800" }
+  ],
+  [
+    { "type": "def", "value": "1200" },
+    { "type": "atk", "value": "2700" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Thunder" },
+    { "type": "frametype", "value": "fusion_pendulum" }
+  ],
+  [
+    { "type": "atk", "value": "2600" },
+    { "type": "def", "value": "300" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "frametype", "value": "link" }
+  ],
+  [
+    { "type": "atk", "value": "100" },
+    { "type": "def", "value": "1200" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "attributes", "value": "water" },
+    { "type": "race", "value": "Cyberse" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "2300" },
+    { "type": "atk", "value": "2100" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "race", "value": "Creator-God" }
+  ],
+  [
+    { "type": "frametype", "value": "xyz" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "atk", "value": "800" },
+    { "type": "race", "value": "Thunder" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "1300" }
+  ],
+  [
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "atk", "value": "2200" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "1800" }
+  ],
+  [
+    { "type": "race", "value": "Dragon" },
+    { "type": "atk", "value": "900" },
+    { "type": "def", "value": "2700" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Flip Effect Monster" },
+    { "type": "attributes", "value": "water" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "atk", "value": "2400" },
+    { "type": "def", "value": "1500" }
+  ],
+  [
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "900" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "frametype", "value": "link" },
+    { "type": "atk", "value": "1200" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "atk", "value": "1600" },
+    { "type": "def", "value": "400" },
+    { "type": "frametype", "value": "skill" }
+  ],
+  [
+    { "type": "frametype", "value": "synchro" },
+    { "type": "def", "value": "2500" },
+    { "type": "type", "value": "Token" },
+    { "type": "atk", "value": "900" },
+    { "type": "attributes", "value": "light" },
+    { "type": "race", "value": "Wyrm" }
+  ],
+  [
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "def", "value": "600" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "atk", "value": "2600" }
+  ],
+  [
+    { "type": "frametype", "value": "fusion" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "def", "value": "900" },
+    { "type": "attributes", "value": "water" },
+    { "type": "atk", "value": "2800" },
+    { "type": "type", "value": "Pendulum Normal Monster" }
+  ],
+  [
+    { "type": "race", "value": "Psychic" },
+    { "type": "atk", "value": "2200" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "2200" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "type", "value": "XYZ Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "link" },
+    { "type": "race", "value": "Plant" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "def", "value": "2800" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "200" }
+  ],
+  [
+    { "type": "race", "value": "Psychic" },
+    { "type": "atk", "value": "3000" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "def", "value": "1700" },
+    { "type": "frametype", "value": "xyz" }
+  ],
+  [
+    { "type": "race", "value": "Psychic" },
+    { "type": "atk", "value": "2600" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "2100" },
+    { "type": "frametype", "value": "token" }
+  ],
+  [
+    { "type": "atk", "value": "1400" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "def", "value": "400" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "attributes", "value": "water" },
+    { "type": "race", "value": "Winged Beast" }
+  ],
+  [
+    { "type": "race", "value": "Zombie" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "atk", "value": "1400" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "def", "value": "1500" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "2500" },
+    { "type": "type", "value": "Trap Card" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "def", "value": "400" },
+    { "type": "frametype", "value": "effect_pendulum" }
+  ],
+  [
+    { "type": "atk", "value": "1000" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "frametype", "value": "token" },
+    { "type": "def", "value": "1700" },
+    { "type": "race", "value": "Divine-Beast" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "1800" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "atk", "value": "100" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "type", "value": "Link Monster" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "500" },
+    { "type": "atk", "value": "1900" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "frametype", "value": "token" }
+  ],
+  [
+    { "type": "atk", "value": "1300" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "2000" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "race", "value": "Zombie" }
+  ],
+  [
+    { "type": "def", "value": "1300" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "atk", "value": "2600" }
+  ],
+  [
+    { "type": "atk", "value": "200" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "1400" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "race", "value": "Spell Cards" }
+  ],
+  [
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "500" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "def", "value": "400" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "frametype", "value": "token" },
+    { "type": "atk", "value": "800" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "def", "value": "400" },
+    { "type": "race", "value": "Insect" }
+  ],
+  [
+    { "type": "race", "value": "Psychic" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "atk", "value": "2600" },
+    { "type": "def", "value": "100" },
+    { "type": "frametype", "value": "fusion" }
+  ],
+  [
+    { "type": "atk", "value": "700" },
+    { "type": "race", "value": "Thunder" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "2600" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" }
+  ],
+  [
+    { "type": "def", "value": "1600" },
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "race", "value": "Rock" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "2500" }
+  ],
+  [
+    { "type": "def", "value": "1500" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "atk", "value": "2200" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "def", "value": "1100" },
+    { "type": "atk", "value": "1500" },
+    { "type": "race", "value": "Fairy" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "3000" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "def", "value": "700" }
+  ],
+  [
+    { "type": "def", "value": "400" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "atk", "value": "1000" },
+    { "type": "race", "value": "Beast-Warrior" },
+    { "type": "type", "value": "Tuner Monster" }
+  ],
+  [
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "atk", "value": "1300" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "frametype", "value": "token" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "600" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "def", "value": "2800" },
+    { "type": "race", "value": "Psychic" },
+    { "type": "atk", "value": "1600" }
+  ],
+  [
+    { "type": "def", "value": "2600" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "atk", "value": "700" }
+  ],
+  [
+    { "type": "def", "value": "700" },
+    { "type": "atk", "value": "1000" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "frametype", "value": "spell" }
+  ],
+  [
+    { "type": "atk", "value": "2800" },
+    { "type": "race", "value": "Dragon" },
+    { "type": "def", "value": "800" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Zombie" },
+    { "type": "atk", "value": "1600" },
+    { "type": "def", "value": "300" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" }
+  ],
+  [
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "atk", "value": "2200" },
+    { "type": "def", "value": "200" },
+    { "type": "race", "value": "Pyro" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "ritual_pendulum" }
+  ],
+  [
+    { "type": "atk", "value": "2700" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" },
+    { "type": "def", "value": "600" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "race", "value": "Cyberse" }
+  ],
+  [
+    { "type": "type", "value": "Trap Card" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "2200" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "race", "value": "Thunder" },
+    { "type": "atk", "value": "3000" }
+  ],
+  [
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "atk", "value": "1000" },
+    { "type": "def", "value": "2100" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "def", "value": "2200" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "atk", "value": "600" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "900" },
+    { "type": "def", "value": "200" },
+    { "type": "frametype", "value": "spell" }
+  ],
+  [
+    { "type": "def", "value": "2400" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "attributes", "value": "light" },
+    { "type": "atk", "value": "500" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "race", "value": "Aqua" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "1900" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "atk", "value": "800" },
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "frametype", "value": "skill" }
+  ],
+  [
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "atk", "value": "1700" },
+    { "type": "def", "value": "800" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "def", "value": "900" },
+    { "type": "atk", "value": "2300" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "1900" },
+    { "type": "def", "value": "2800" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "type", "value": "Tuner Monster" }
+  ],
+  [
+    { "type": "type", "value": "Skill Card" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "def", "value": "1300" },
+    { "type": "atk", "value": "1000" },
+    { "type": "race", "value": "Fish" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "race", "value": "Pyro" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "def", "value": "1400" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "atk", "value": "2900" }
+  ],
+  [
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "race", "value": "Insect" },
+    { "type": "def", "value": "2500" },
+    { "type": "atk", "value": "1500" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "effect_pendulum" }
+  ],
+  [
+    { "type": "atk", "value": "2300" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "1900" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "race", "value": "Zombie" }
+  ],
+  [
+    { "type": "def", "value": "1300" },
+    { "type": "atk", "value": "1800" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "race", "value": "Insect" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Skill Card" }
+  ],
+  [
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "atk", "value": "1100" },
+    { "type": "race", "value": "Machine" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "2200" }
+  ],
+  [
+    { "type": "atk", "value": "2900" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "def", "value": "300" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "race", "value": "Pyro" }
+  ],
+  [
+    { "type": "type", "value": "Trap Card" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "atk", "value": "200" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "3000" },
+    { "type": "race", "value": "Dinosaur" }
+  ],
+  [
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "1800" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "def", "value": "800" }
+  ],
+  [
+    { "type": "atk", "value": "600" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "2900" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "frametype", "value": "ritual" }
+  ],
+  [
+    { "type": "race", "value": "Aqua" },
+    { "type": "attributes", "value": "light" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "atk", "value": "1600" },
+    { "type": "def", "value": "2500" },
+    { "type": "frametype", "value": "normal_pendulum" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "400" },
+    { "type": "race", "value": "Plant" },
+    { "type": "def", "value": "2800" }
+  ],
+  [
+    { "type": "atk", "value": "1600" },
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "type", "value": "Skill Card" },
+    { "type": "race", "value": "Rock" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "100" }
+  ],
+  [
+    { "type": "frametype", "value": "synchro" },
+    { "type": "atk", "value": "1700" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "500" }
+  ],
+  [
+    { "type": "race", "value": "Thunder" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "1800" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "def", "value": "100" },
+    { "type": "frametype", "value": "skill" }
+  ],
+  [
+    { "type": "race", "value": "Reptile" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "atk", "value": "700" },
+    { "type": "def", "value": "2100" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "race", "value": "Aqua" },
+    { "type": "frametype", "value": "link" },
+    { "type": "type", "value": "Toon Monster" },
+    { "type": "attributes", "value": "water" },
+    { "type": "atk", "value": "1200" },
+    { "type": "def", "value": "200" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "atk", "value": "2800" },
+    { "type": "def", "value": "2000" }
+  ],
+  [
+    { "type": "frametype", "value": "link" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "1100" },
+    { "type": "type", "value": "Token" },
+    { "type": "atk", "value": "1700" },
+    { "type": "race", "value": "Plant" }
+  ],
+  [
+    { "type": "race", "value": "Fish" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "def", "value": "600" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "1500" },
+    { "type": "type", "value": "Synchro Tuner Monster" }
+  ],
+  [
+    { "type": "type", "value": "Spell Card" },
+    { "type": "attributes", "value": "light" },
+    { "type": "atk", "value": "1000" },
+    { "type": "race", "value": "Zombie" },
+    { "type": "def", "value": "1300" },
+    { "type": "frametype", "value": "skill" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "1300" },
+    { "type": "atk", "value": "400" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "frametype", "value": "fusion_pendulum" }
+  ],
+  [
+    { "type": "def", "value": "2300" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "atk", "value": "1300" },
+    { "type": "frametype", "value": "link" }
+  ],
+  [
+    { "type": "atk", "value": "1000" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "def", "value": "600" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "atk", "value": "1900" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Token" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "race", "value": "Insect" },
+    { "type": "def", "value": "1300" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "race", "value": "Machine" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "2900" },
+    { "type": "frametype", "value": "link" },
+    { "type": "atk", "value": "1300" }
+  ],
+  [
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "2200" },
+    { "type": "def", "value": "900" },
+    { "type": "frametype", "value": "synchro_pendulum" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "def", "value": "1800" },
+    { "type": "atk", "value": "1100" },
+    { "type": "type", "value": "Token" }
+  ],
+  [
+    { "type": "def", "value": "1400" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "atk", "value": "2900" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "atk", "value": "3000" },
+    { "type": "attributes", "value": "light" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "def", "value": "2400" },
+    { "type": "type", "value": "Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "attributes", "value": "light" },
+    { "type": "type", "value": "Token" },
+    { "type": "race", "value": "Machine" },
+    { "type": "def", "value": "2400" },
+    { "type": "atk", "value": "2200" }
+  ],
+  [
+    { "type": "atk", "value": "1200" },
+    { "type": "race", "value": "Beast-Warrior" },
+    { "type": "def", "value": "1200" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Tuner Monster" }
+  ],
+  [
+    { "type": "def", "value": "2600" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "atk", "value": "2500" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "attributes", "value": "wind" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "race", "value": "Fish" },
+    { "type": "atk", "value": "2600" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "800" },
+    { "type": "type", "value": "Flip Effect Monster" }
+  ],
+  [
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "def", "value": "1800" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "atk", "value": "700" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "attributes", "value": "water" }
+  ],
+  [
+    { "type": "race", "value": "Reptile" },
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "atk", "value": "2600" },
+    { "type": "attributes", "value": "water" },
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "def", "value": "1200" }
+  ],
+  [
+    { "type": "def", "value": "100" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "race", "value": "Dragon" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "1000" },
+    { "type": "type", "value": "Effect Monster" }
+  ],
+  [
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "def", "value": "2300" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "2000" },
+    { "type": "race", "value": "Pyro" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "race", "value": "Beast-Warrior" },
+    { "type": "def", "value": "2500" },
+    { "type": "atk", "value": "2000" }
+  ],
+  [
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "frametype", "value": "token" },
+    { "type": "atk", "value": "500" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "1300" }
+  ],
+  [
+    { "type": "atk", "value": "2500" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "def", "value": "2800" },
+    { "type": "race", "value": "Plant" },
+    { "type": "attributes", "value": "light" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" }
+  ],
+  [
+    { "type": "atk", "value": "3000" },
+    { "type": "def", "value": "500" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "frametype", "value": "ritual_pendulum" }
+  ],
+  [
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "def", "value": "100" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "atk", "value": "3000" },
+    { "type": "frametype", "value": "synchro" }
+  ],
+  [
+    { "type": "race", "value": "Rock" },
+    { "type": "atk", "value": "1100" },
+    { "type": "frametype", "value": "link" },
+    { "type": "def", "value": "3000" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "race", "value": "Rock" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "atk", "value": "3000" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "1200" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "atk", "value": "1800" },
+    { "type": "def", "value": "400" },
+    { "type": "race", "value": "Plant" },
+    { "type": "frametype", "value": "xyz_pendulum" }
+  ],
+  [
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "def", "value": "1900" },
+    { "type": "race", "value": "Fish" },
+    { "type": "atk", "value": "1000" }
+  ],
+  [
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "atk", "value": "1300" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "def", "value": "3000" },
+    { "type": "race", "value": "Fish" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual" },
+    { "type": "def", "value": "1400" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "900" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "race", "value": "Rock" }
+  ],
+  [
+    { "type": "def", "value": "400" },
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "atk", "value": "2200" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "type", "value": "Ritual Monster" }
+  ],
+  [
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "attributes", "value": "light" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "atk", "value": "2700" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "def", "value": "2400" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Insect" },
+    { "type": "atk", "value": "200" },
+    { "type": "def", "value": "2900" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "type", "value": "Fusion Monster" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "atk", "value": "700" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "1100" },
+    { "type": "frametype", "value": "link" }
+  ],
+  [
+    { "type": "race", "value": "Wyrm" },
+    { "type": "atk", "value": "1600" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "def", "value": "2800" },
+    { "type": "type", "value": "Skill Card" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "def", "value": "2700" },
+    { "type": "atk", "value": "2500" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "atk", "value": "500" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "def", "value": "1300" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "frametype", "value": "synchro" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Trap Card" },
+    { "type": "atk", "value": "1800" },
+    { "type": "def", "value": "1000" },
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "race", "value": "Zombie" }
+  ],
+  [
+    { "type": "race", "value": "Warrior" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "def", "value": "300" },
+    { "type": "atk", "value": "700" }
+  ],
+  [
+    { "type": "atk", "value": "1300" },
+    { "type": "def", "value": "500" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "race", "value": "Dragon" },
+    { "type": "attributes", "value": "wind" }
+  ],
+  [
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "race", "value": "Insect" },
+    { "type": "atk", "value": "400" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "2400" },
+    { "type": "frametype", "value": "fusion_pendulum" }
+  ],
+  [
+    { "type": "atk", "value": "600" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "def", "value": "300" },
+    { "type": "race", "value": "Creator-God" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" }
+  ],
+  [
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "atk", "value": "2000" },
+    { "type": "def", "value": "1800" },
+    { "type": "race", "value": "Creator-God" }
+  ],
+  [
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "2100" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "atk", "value": "700" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "def", "value": "1700" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "race", "value": "Beast" },
+    { "type": "atk", "value": "900" },
+    { "type": "frametype", "value": "link" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "def", "value": "600" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "500" }
+  ],
+  [
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "race", "value": "Pyro" },
+    { "type": "def", "value": "800" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "800" },
+    { "type": "frametype", "value": "normal_pendulum" }
+  ],
+  [
+    { "type": "def", "value": "2100" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "atk", "value": "600" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "atk", "value": "900" },
+    { "type": "race", "value": "Beast" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "500" }
+  ],
+  [
+    { "type": "race", "value": "Wyrm" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "600" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "atk", "value": "100" }
+  ],
+  [
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "700" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "def", "value": "2800" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "type", "value": "Spell Card" }
+  ],
+  [
+    { "type": "type", "value": "Token" },
+    { "type": "def", "value": "3000" },
+    { "type": "atk", "value": "100" },
+    { "type": "attributes", "value": "light" },
+    { "type": "race", "value": "Fish" },
+    { "type": "frametype", "value": "token" }
+  ],
+  [
+    { "type": "race", "value": "Fairy" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "atk", "value": "2600" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "300" }
+  ],
+  [
+    { "type": "race", "value": "Fiend" },
+    { "type": "atk", "value": "1200" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Trap Card" },
+    { "type": "def", "value": "1100" }
+  ],
+  [
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "frametype", "value": "token" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "atk", "value": "2000" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "1600" }
+  ],
+  [
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "1900" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "def", "value": "2600" },
+    { "type": "frametype", "value": "effect" }
+  ],
+  [
+    { "type": "atk", "value": "2000" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "race", "value": "Rock" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "def", "value": "1600" },
+    { "type": "type", "value": "Ritual Effect Monster" }
+  ],
+  [
+    { "type": "atk", "value": "600" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "def", "value": "1100" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "trap" }
+  ],
+  [
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "atk", "value": "2200" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "def", "value": "2800" },
+    { "type": "frametype", "value": "normal" }
+  ],
+  [
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "def", "value": "2100" },
+    { "type": "atk", "value": "2100" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "race", "value": "Dinosaur" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "atk", "value": "1600" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "def", "value": "2800" }
+  ],
+  [
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "def", "value": "2600" },
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "atk", "value": "900" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "frametype", "value": "token" },
+    { "type": "def", "value": "1000" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "attributes", "value": "light" },
+    { "type": "atk", "value": "2500" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "atk", "value": "1700" },
+    { "type": "def", "value": "1100" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "attributes", "value": "light" },
+    { "type": "race", "value": "Aqua" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "def", "value": "300" },
+    { "type": "atk", "value": "3000" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Dinosaur" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "1200" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "3000" },
+    { "type": "type", "value": "Spirit Monster" }
+  ],
+  [
+    { "type": "race", "value": "Insect" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "atk", "value": "400" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "def", "value": "800" }
+  ],
+  [
+    { "type": "atk", "value": "400" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "500" },
+    { "type": "frametype", "value": "token" }
+  ],
+  [
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "def", "value": "1100" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "900" }
+  ],
+  [
+    { "type": "race", "value": "Dragon" },
+    { "type": "atk", "value": "2700" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "def", "value": "2000" }
+  ],
+  [
+    { "type": "frametype", "value": "link" },
+    { "type": "race", "value": "Psychic" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "atk", "value": "800" },
+    { "type": "def", "value": "500" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "atk", "value": "600" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "race", "value": "Creator-God" },
+    { "type": "def", "value": "1400" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "type", "value": "Toon Monster" }
+  ],
+  [
+    { "type": "atk", "value": "1400" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "def", "value": "800" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "race", "value": "Plant" },
+    { "type": "def", "value": "1000" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "atk", "value": "300" }
+  ],
+  [
+    { "type": "atk", "value": "300" },
+    { "type": "def", "value": "2800" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "1900" },
+    { "type": "def", "value": "300" },
+    { "type": "race", "value": "Insect" },
+    { "type": "type", "value": "Pendulum Normal Monster" }
+  ],
+  [
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "atk", "value": "1800" },
+    { "type": "def", "value": "800" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "atk", "value": "2100" },
+    { "type": "def", "value": "2900" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Pyro" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" }
+  ],
+  [
+    { "type": "def", "value": "1900" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "2900" }
+  ],
+  [
+    { "type": "atk", "value": "3000" },
+    { "type": "race", "value": "Plant" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "def", "value": "1600" }
+  ],
+  [
+    { "type": "def", "value": "800" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "atk", "value": "2900" },
+    { "type": "frametype", "value": "xyz" }
+  ],
+  [
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "link" },
+    { "type": "atk", "value": "1800" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "def", "value": "700" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "1100" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" },
+    { "type": "race", "value": "Plant" },
+    { "type": "atk", "value": "3000" }
+  ],
+  [
+    { "type": "race", "value": "Fairy" },
+    { "type": "atk", "value": "2100" },
+    { "type": "def", "value": "300" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "atk", "value": "100" },
+    { "type": "def", "value": "3000" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "atk", "value": "700" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "def", "value": "400" },
+    { "type": "attributes", "value": "water" }
+  ],
+  [
+    { "type": "def", "value": "1000" },
+    { "type": "race", "value": "Dragon" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "atk", "value": "2600" },
+    { "type": "frametype", "value": "normal_pendulum" }
+  ],
+  [
+    { "type": "race", "value": "Fish" },
+    { "type": "def", "value": "500" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "atk", "value": "600" },
+    { "type": "type", "value": "Effect Monster" }
+  ],
+  [
+    { "type": "race", "value": "Fish" },
+    { "type": "atk", "value": "1400" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "frametype", "value": "token" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "100" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "500" },
+    { "type": "race", "value": "Rock" },
+    { "type": "def", "value": "2200" }
+  ],
+  [
+    { "type": "atk", "value": "2700" },
+    { "type": "def", "value": "2700" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "frametype", "value": "synchro" }
+  ],
+  [
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "atk", "value": "2800" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "def", "value": "2400" }
+  ],
+  [
+    { "type": "race", "value": "Dragon" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "2600" },
+    { "type": "def", "value": "1400" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "type", "value": "Union Effect Monster" }
+  ],
+  [
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Zombie" },
+    { "type": "atk", "value": "900" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "def", "value": "2600" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "atk", "value": "200" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "def", "value": "2200" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "atk", "value": "2700" },
+    { "type": "def", "value": "3000" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Psychic" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "400" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "atk", "value": "700" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "atk", "value": "400" },
+    { "type": "def", "value": "1500" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "2200" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "atk", "value": "2700" },
+    { "type": "frametype", "value": "effect" }
+  ],
+  [
+    { "type": "atk", "value": "200" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Beast" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "def", "value": "900" }
+  ],
+  [
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "atk", "value": "1500" },
+    { "type": "race", "value": "Machine" },
+    { "type": "def", "value": "1300" }
+  ],
+  [
+    { "type": "def", "value": "2100" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Fish" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "atk", "value": "2700" }
+  ],
+  [
+    { "type": "def", "value": "600" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "atk", "value": "2100" },
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "skill" }
+  ],
+  [
+    { "type": "attributes", "value": "earth" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "atk", "value": "1000" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "def", "value": "2900" }
+  ],
+  [
+    { "type": "race", "value": "Dragon" },
+    { "type": "atk", "value": "1400" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "def", "value": "700" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "XYZ Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "def", "value": "900" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "atk", "value": "2600" },
+    { "type": "race", "value": "Reptile" }
+  ],
+  [
+    { "type": "atk", "value": "700" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "900" }
+  ],
+  [
+    { "type": "frametype", "value": "skill" },
+    { "type": "def", "value": "1600" },
+    { "type": "race", "value": "Creator-God" },
+    { "type": "atk", "value": "1200" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Synchro Monster" }
+  ],
+  [
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "atk", "value": "1300" },
+    { "type": "def", "value": "2800" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "frametype", "value": "xyz_pendulum" }
+  ],
+  [
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "def", "value": "1100" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "atk", "value": "2900" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "atk", "value": "3000" },
+    { "type": "race", "value": "Insect" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "def", "value": "2300" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "def", "value": "1500" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "atk", "value": "700" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "race", "value": "Fish" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "race", "value": "Warrior" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "2000" },
+    { "type": "atk", "value": "400" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "def", "value": "900" },
+    { "type": "attributes", "value": "water" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "type", "value": "Toon Monster" },
+    { "type": "atk", "value": "2900" }
+  ],
+  [
+    { "type": "atk", "value": "900" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "def", "value": "500" },
+    { "type": "attributes", "value": "light" },
+    { "type": "race", "value": "Pyro" },
+    { "type": "frametype", "value": "normal" }
+  ],
+  [
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "def", "value": "2700" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "atk", "value": "2400" },
+    { "type": "attributes", "value": "water" }
+  ],
+  [
+    { "type": "atk", "value": "2200" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "def", "value": "2600" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "1500" },
+    { "type": "frametype", "value": "token" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "def", "value": "1800" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "def", "value": "2500" },
+    { "type": "atk", "value": "1700" }
+  ],
+  [
+    { "type": "atk", "value": "2600" },
+    { "type": "race", "value": "Dragon" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "2900" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "type", "value": "Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "token" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "atk", "value": "1700" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "race", "value": "Beast" },
+    { "type": "def", "value": "700" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Flip Effect Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "100" },
+    { "type": "def", "value": "1700" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "race", "value": "Spell Cards" }
+  ],
+  [
+    { "type": "race", "value": "Cyberse" },
+    { "type": "atk", "value": "1600" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "def", "value": "1500" }
+  ],
+  [
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "def", "value": "2000" },
+    { "type": "atk", "value": "2500" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "atk", "value": "2900" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "def", "value": "1200" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "attributes", "value": "water" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "600" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "def", "value": "200" }
+  ],
+  [
+    { "type": "race", "value": "Dragon" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "atk", "value": "100" },
+    { "type": "def", "value": "2000" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "def", "value": "2100" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "race", "value": "Plant" },
+    { "type": "atk", "value": "1200" },
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "def", "value": "1100" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "atk", "value": "2200" }
+  ],
+  [
+    { "type": "frametype", "value": "spell" },
+    { "type": "def", "value": "900" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "700" },
+    { "type": "race", "value": "Zombie" }
+  ],
+  [
+    { "type": "def", "value": "500" },
+    { "type": "atk", "value": "600" },
+    { "type": "race", "value": "Rock" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" }
+  ],
+  [
+    { "type": "race", "value": "Reptile" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "atk", "value": "500" },
+    { "type": "def", "value": "2400" }
+  ],
+  [
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "def", "value": "2300" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "attributes", "value": "light" },
+    { "type": "atk", "value": "1500" },
+    { "type": "race", "value": "Spell Cards" }
+  ],
+  [
+    { "type": "type", "value": "Spell Card" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "1200" },
+    { "type": "atk", "value": "800" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "frametype", "value": "ritual" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "1800" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "def", "value": "1400" },
+    { "type": "race", "value": "Aqua" }
+  ],
+  [
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "def", "value": "300" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "500" },
+    { "type": "race", "value": "Aqua" }
+  ],
+  [
+    { "type": "def", "value": "3000" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "atk", "value": "1300" }
+  ],
+  [
+    { "type": "attributes", "value": "light" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "def", "value": "1200" },
+    { "type": "atk", "value": "2100" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "race", "value": "Insect" }
+  ],
+  [
+    { "type": "race", "value": "Aqua" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "1200" },
+    { "type": "def", "value": "2500" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "frametype", "value": "xyz_pendulum" }
+  ],
+  [
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "atk", "value": "3000" },
+    { "type": "def", "value": "2200" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "synchro_pendulum" }
+  ],
+  [
+    { "type": "def", "value": "1600" },
+    { "type": "atk", "value": "900" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" }
+  ],
+  [
+    { "type": "race", "value": "Creator-God" },
+    { "type": "def", "value": "1700" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "atk", "value": "200" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "frametype", "value": "xyz" },
+    { "type": "def", "value": "1000" },
+    { "type": "type", "value": "Toon Monster" },
+    { "type": "attributes", "value": "water" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "atk", "value": "2200" }
+  ],
+  [
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "1600" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "100" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "2400" },
+    { "type": "atk", "value": "1300" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "2400" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "type", "value": "Link Monster" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "def", "value": "1400" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "2200" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "def", "value": "2600" },
+    { "type": "frametype", "value": "xyz" }
+  ],
+  [
+    { "type": "def", "value": "500" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "atk", "value": "3000" },
+    { "type": "race", "value": "Pyro" },
+    { "type": "frametype", "value": "spell" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "atk", "value": "1500" },
+    { "type": "race", "value": "Psychic" },
+    { "type": "def", "value": "1400" }
+  ],
+  [
+    { "type": "frametype", "value": "link" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "300" },
+    { "type": "atk", "value": "500" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "race", "value": "Fish" }
+  ],
+  [
+    { "type": "atk", "value": "2300" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "def", "value": "2300" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "def", "value": "400" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "frametype", "value": "token" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "2900" }
+  ],
+  [
+    { "type": "def", "value": "2400" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "atk", "value": "3000" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "type", "value": "Synchro Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "2100" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "900" }
+  ],
+  [
+    { "type": "type", "value": "Skill Card" },
+    { "type": "atk", "value": "3000" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "def", "value": "2900" }
+  ],
+  [
+    { "type": "race", "value": "Thunder" },
+    { "type": "atk", "value": "2000" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "1900" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" }
+  ],
+  [
+    { "type": "race", "value": "Thunder" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "200" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "1700" },
+    { "type": "type", "value": "XYZ Monster" }
+  ],
+  [
+    { "type": "def", "value": "2400" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "atk", "value": "300" },
+    { "type": "type", "value": "Spirit Monster" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "frametype", "value": "skill" },
+    { "type": "def", "value": "200" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "atk", "value": "1500" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "frametype", "value": "trap" },
+    { "type": "def", "value": "400" },
+    { "type": "race", "value": "Rock" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "atk", "value": "1300" }
+  ],
+  [
+    { "type": "frametype", "value": "token" },
+    { "type": "def", "value": "2200" },
+    { "type": "attributes", "value": "light" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "race", "value": "Machine" },
+    { "type": "atk", "value": "400" }
+  ],
+  [
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "200" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "frametype", "value": "link" },
+    { "type": "atk", "value": "1100" }
+  ],
+  [
+    { "type": "race", "value": "Dragon" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "atk", "value": "1000" },
+    { "type": "def", "value": "2500" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "fusion" },
+    { "type": "atk", "value": "500" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "1000" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "race", "value": "Wyrm" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "1200" },
+    { "type": "atk", "value": "1100" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "race", "value": "Dinosaur" }
+  ],
+  [
+    { "type": "atk", "value": "2100" },
+    { "type": "race", "value": "Beast" },
+    { "type": "def", "value": "700" },
+    { "type": "attributes", "value": "water" },
+    { "type": "frametype", "value": "token" },
+    { "type": "type", "value": "Link Monster" }
+  ],
+  [
+    { "type": "atk", "value": "300" },
+    { "type": "def", "value": "2700" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "race", "value": "Psychic" },
+    { "type": "type", "value": "Union Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "link" },
+    { "type": "def", "value": "900" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "race", "value": "Dragon" },
+    { "type": "atk", "value": "900" }
+  ],
+  [
+    { "type": "race", "value": "Psychic" },
+    { "type": "atk", "value": "1200" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "2100" },
+    { "type": "type", "value": "Normal Tuner Monster" }
+  ],
+  [
+    { "type": "type", "value": "Skill Card" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "200" },
+    { "type": "def", "value": "1500" },
+    { "type": "frametype", "value": "effect" }
+  ],
+  [
+    { "type": "attributes", "value": "earth" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "atk", "value": "2900" },
+    { "type": "def", "value": "3000" },
+    { "type": "race", "value": "Winged Beast" }
+  ],
+  [
+    { "type": "frametype", "value": "link" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "def", "value": "2300" },
+    { "type": "atk", "value": "1500" },
+    { "type": "race", "value": "Cyberse" }
+  ],
+  [
+    { "type": "type", "value": "Token" },
+    { "type": "def", "value": "2500" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "frametype", "value": "token" },
+    { "type": "atk", "value": "500" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "type", "value": "Token" },
+    { "type": "def", "value": "2000" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "atk", "value": "2400" }
+  ],
+  [
+    { "type": "atk", "value": "1900" },
+    { "type": "frametype", "value": "token" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "def", "value": "300" },
+    { "type": "race", "value": "Zombie" }
+  ],
+  [
+    { "type": "race", "value": "Thunder" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "atk", "value": "700" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "def", "value": "800" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "atk", "value": "1600" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "def", "value": "1300" },
+    { "type": "type", "value": "Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "xyz" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "atk", "value": "2300" },
+    { "type": "def", "value": "2900" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "attributes", "value": "wind" }
+  ],
+  [
+    { "type": "atk", "value": "300" },
+    { "type": "def", "value": "2300" },
+    { "type": "race", "value": "Psychic" },
+    { "type": "attributes", "value": "water" },
+    { "type": "frametype", "value": "synchro" },
+    { "type": "type", "value": "Token" }
+  ],
+  [
+    { "type": "frametype", "value": "xyz" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "1700" },
+    { "type": "atk", "value": "2700" },
+    { "type": "race", "value": "Sea Serpent" }
+  ],
+  [
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "def", "value": "1600" },
+    { "type": "atk", "value": "1000" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "ritual" }
+  ],
+  [
+    { "type": "def", "value": "1100" },
+    { "type": "atk", "value": "700" },
+    { "type": "race", "value": "Zombie" },
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "attributes", "value": "water" }
+  ],
+  [
+    { "type": "race", "value": "Wyrm" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "atk", "value": "1500" },
+    { "type": "def", "value": "2100" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "attributes", "value": "wind" }
+  ],
+  [
+    { "type": "def", "value": "1200" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "atk", "value": "2500" }
+  ],
+  [
+    { "type": "def", "value": "2900" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "2900" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "type", "value": "Normal Monster" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "2700" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "2000" },
+    { "type": "type", "value": "Synchro Monster" },
+    { "type": "race", "value": "Spell Cards" }
+  ],
+  [
+    { "type": "def", "value": "1700" },
+    { "type": "race", "value": "Rock" },
+    { "type": "attributes", "value": "light" },
+    { "type": "type", "value": "Flip Tuner Effect Monster" },
+    { "type": "atk", "value": "2300" },
+    { "type": "frametype", "value": "synchro_pendulum" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "def", "value": "400" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "atk", "value": "2600" }
+  ],
+  [
+    { "type": "def", "value": "2000" },
+    { "type": "frametype", "value": "effect_pendulum" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "atk", "value": "1300" },
+    { "type": "attributes", "value": "water" }
+  ],
+  [
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "600" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Ritual Effect Monster" },
+    { "type": "atk", "value": "1000" }
+  ],
+  [
+    { "type": "frametype", "value": "skill" },
+    { "type": "atk", "value": "1200" },
+    { "type": "def", "value": "2300" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "race", "value": "Machine" }
+  ],
+  [
+    { "type": "atk", "value": "2700" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "link" },
+    { "type": "def", "value": "1700" },
+    { "type": "race", "value": "Zombie" }
+  ],
+  [
+    { "type": "atk", "value": "1000" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "def", "value": "1200" },
+    { "type": "race", "value": "Fairy" }
+  ],
+  [
+    { "type": "def", "value": "1800" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "600" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "atk", "value": "2600" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "def", "value": "1900" },
+    { "type": "frametype", "value": "synchro_pendulum" }
+  ],
+  [
+    { "type": "frametype", "value": "fusion" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "race", "value": "Zombie" },
+    { "type": "def", "value": "2600" },
+    { "type": "atk", "value": "1400" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "race", "value": "Plant" },
+    { "type": "atk", "value": "900" },
+    { "type": "def", "value": "500" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "attributes", "value": "light" },
+    { "type": "atk", "value": "2800" },
+    { "type": "type", "value": "Trap Card" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "def", "value": "1600" }
+  ],
+  [
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "attributes", "value": "light" },
+    { "type": "atk", "value": "2900" },
+    { "type": "def", "value": "500" }
+  ],
+  [
+    { "type": "def", "value": "2000" },
+    { "type": "race", "value": "Rock" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "1700" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "def", "value": "1900" },
+    { "type": "race", "value": "Thunder" },
+    { "type": "atk", "value": "1500" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Beast-Warrior" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "atk", "value": "1800" },
+    { "type": "def", "value": "600" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "def", "value": "2100" },
+    { "type": "race", "value": "Creator-God" },
+    { "type": "atk", "value": "1000" }
+  ],
+  [
+    { "type": "atk", "value": "3000" },
+    { "type": "type", "value": "Trap Card" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "def", "value": "2200" },
+    { "type": "frametype", "value": "link" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "atk", "value": "2100" },
+    { "type": "attributes", "value": "water" },
+    { "type": "def", "value": "3000" },
+    { "type": "frametype", "value": "token" },
+    { "type": "race", "value": "Warrior" }
+  ],
+  [
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "atk", "value": "500" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "def", "value": "600" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "def", "value": "2800" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "1300" }
+  ],
+  [
+    { "type": "atk", "value": "800" },
+    { "type": "def", "value": "1500" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "race", "value": "Beast-Warrior" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "def", "value": "500" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "2900" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "frametype", "value": "link" }
+  ],
+  [
+    { "type": "def", "value": "1500" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "atk", "value": "600" },
+    { "type": "race", "value": "Rock" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "attributes", "value": "light" }
+  ],
+  [
+    { "type": "frametype", "value": "skill" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "600" },
+    { "type": "def", "value": "2200" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "type", "value": "Union Effect Monster" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "def", "value": "700" },
+    { "type": "race", "value": "Plant" },
+    { "type": "atk", "value": "2600" },
+    { "type": "type", "value": "Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "attributes", "value": "water" },
+    { "type": "race", "value": "Zombie" },
+    { "type": "def", "value": "1700" },
+    { "type": "atk", "value": "2500" }
+  ],
+  [
+    { "type": "frametype", "value": "spell" },
+    { "type": "race", "value": "Beast-Warrior" },
+    { "type": "atk", "value": "700" },
+    { "type": "def", "value": "400" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "def", "value": "2700" },
+    { "type": "atk", "value": "700" },
+    { "type": "type", "value": "Pendulum Effect Monster" },
+    { "type": "frametype", "value": "normal" },
+    { "type": "race", "value": "Insect" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "atk", "value": "1600" },
+    { "type": "race", "value": "Reptile" },
+    { "type": "def", "value": "1800" },
+    { "type": "frametype", "value": "normal_pendulum" }
+  ],
+  [
+    { "type": "atk", "value": "900" },
+    { "type": "race", "value": "Rock" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "frametype", "value": "token" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "def", "value": "1800" }
+  ],
+  [
+    { "type": "race", "value": "Reptile" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "spell" },
+    { "type": "def", "value": "1800" },
+    { "type": "atk", "value": "2800" },
+    { "type": "type", "value": "Trap Card" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "race", "value": "Machine" },
+    { "type": "atk", "value": "1500" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "def", "value": "1700" }
+  ],
+  [
+    { "type": "atk", "value": "1200" },
+    { "type": "type", "value": "Skill Card" },
+    { "type": "race", "value": "Aqua" },
+    { "type": "def", "value": "200" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "type", "value": "Pendulum Flip Effect Monster" },
+    { "type": "race", "value": "Machine" },
+    { "type": "frametype", "value": "xyz" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "atk", "value": "1800" },
+    { "type": "def", "value": "1400" }
+  ],
+  [
+    { "type": "race", "value": "Aqua" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "100" },
+    { "type": "type", "value": "Skill Card" },
+    { "type": "frametype", "value": "link" },
+    { "type": "def", "value": "2700" }
+  ],
+  [
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "race", "value": "Fairy" },
+    { "type": "atk", "value": "2900" },
+    { "type": "def", "value": "1000" }
+  ],
+  [
+    { "type": "atk", "value": "3000" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "2500" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "race", "value": "Reptile" }
+  ],
+  [
+    { "type": "atk", "value": "1100" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "race", "value": "Fiend" },
+    { "type": "def", "value": "1700" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "attributes", "value": "fire" }
+  ],
+  [
+    { "type": "race", "value": "Winged Beast" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "2700" },
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "frametype", "value": "trap" },
+    { "type": "atk", "value": "2100" }
+  ],
+  [
+    { "type": "def", "value": "1100" },
+    { "type": "attributes", "value": "water" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "atk", "value": "2900" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "atk", "value": "900" },
+    { "type": "frametype", "value": "ritual" },
+    { "type": "type", "value": "Ritual Monster" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "3000" },
+    { "type": "race", "value": "Dragon" }
+  ],
+  [
+    { "type": "frametype", "value": "fusion_pendulum" },
+    { "type": "atk", "value": "500" },
+    { "type": "type", "value": "Spell Card" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "def", "value": "1900" },
+    { "type": "race", "value": "Sea Serpent" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "atk", "value": "2200" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "def", "value": "2600" }
+  ],
+  [
+    { "type": "frametype", "value": "fusion" },
+    { "type": "type", "value": "Union Effect Monster" },
+    { "type": "attributes", "value": "light" },
+    { "type": "def", "value": "700" },
+    { "type": "race", "value": "Machine" },
+    { "type": "atk", "value": "1100" }
+  ],
+  [
+    { "type": "atk", "value": "1800" },
+    { "type": "frametype", "value": "skill" },
+    { "type": "def", "value": "600" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "atk", "value": "1900" },
+    { "type": "def", "value": "2500" },
+    { "type": "type", "value": "Synchro Tuner Monster" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "effect_pendulum" }
+  ],
+  [
+    { "type": "attributes", "value": "dark" },
+    { "type": "atk", "value": "1300" },
+    { "type": "frametype", "value": "xyz_pendulum" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "race", "value": "Machine" },
+    { "type": "def", "value": "2400" }
+  ],
+  [
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "def", "value": "1000" },
+    { "type": "attributes", "value": "light" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "atk", "value": "1200" }
+  ],
+  [
+    { "type": "atk", "value": "2700" },
+    { "type": "def", "value": "300" },
+    { "type": "race", "value": "Warrior" },
+    { "type": "attributes", "value": "dark" },
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "frametype", "value": "fusion_pendulum" }
+  ],
+  [
+    { "type": "race", "value": "Creator-God" },
+    { "type": "type", "value": "Effect Monster" },
+    { "type": "atk", "value": "200" },
+    { "type": "def", "value": "300" },
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "divine" }
+  ],
+  [
+    { "type": "attributes", "value": "wind" },
+    { "type": "def", "value": "2800" },
+    { "type": "frametype", "value": "ritual_pendulum" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "atk", "value": "300" },
+    { "type": "type", "value": "Link Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "link" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "def", "value": "800" },
+    { "type": "type", "value": "XYZ Monster" },
+    { "type": "atk", "value": "3000" }
+  ],
+  [
+    { "type": "atk", "value": "1700" },
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "type", "value": "Pendulum Effect Fusion Monster" },
+    { "type": "def", "value": "2200" },
+    { "type": "attributes", "value": "earth" }
+  ],
+  [
+    { "type": "frametype", "value": "spell" },
+    { "type": "atk", "value": "2500" },
+    { "type": "def", "value": "2100" },
+    { "type": "race", "value": "Creator-God" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "attributes", "value": "dark" }
+  ],
+  [
+    { "type": "frametype", "value": "spell" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "def", "value": "1900" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "atk", "value": "100" }
+  ],
+  [
+    { "type": "def", "value": "500" },
+    { "type": "race", "value": "Plant" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "atk", "value": "2200" },
+    { "type": "attributes", "value": "water" },
+    { "type": "type", "value": "Trap Card" }
+  ],
+  [
+    { "type": "atk", "value": "2000" },
+    { "type": "race", "value": "Rock" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "def", "value": "100" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "type", "value": "Pendulum Flip Effect Monster" }
+  ],
+  [
+    { "type": "frametype", "value": "spell" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "atk", "value": "2600" },
+    { "type": "def", "value": "2300" },
+    { "type": "race", "value": "Spell Cards" }
+  ],
+  [
+    { "type": "atk", "value": "2400" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "def", "value": "1500" },
+    { "type": "race", "value": "Cyberse" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "600" },
+    { "type": "def", "value": "1800" },
+    { "type": "race", "value": "Plant" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "frametype", "value": "skill" }
+  ],
+  [
+    { "type": "race", "value": "Cyberse" },
+    { "type": "def", "value": "1500" },
+    { "type": "attributes", "value": "wind" },
+    { "type": "frametype", "value": "fusion" },
+    { "type": "atk", "value": "400" },
+    { "type": "type", "value": "Toon Monster" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "def", "value": "1300" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "atk", "value": "1600" },
+    { "type": "frametype", "value": "effect_pendulum" }
+  ],
+  [
+    { "type": "frametype", "value": "synchro" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "400" },
+    { "type": "race", "value": "Rock" },
+    { "type": "type", "value": "Pendulum Normal Monster" },
+    { "type": "def", "value": "1100" }
+  ],
+  [
+    { "type": "def", "value": "700" },
+    { "type": "frametype", "value": "token" },
+    { "type": "atk", "value": "1500" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "race", "value": "Aqua" }
+  ],
+  [
+    { "type": "attributes", "value": "light" },
+    { "type": "race", "value": "Dinosaur" },
+    { "type": "type", "value": "Normal Tuner Monster" },
+    { "type": "def", "value": "400" },
+    { "type": "frametype", "value": "synchro_pendulum" },
+    { "type": "atk", "value": "1600" }
+  ],
+  [
+    { "type": "race", "value": "Fish" },
+    { "type": "def", "value": "2300" },
+    { "type": "atk", "value": "2900" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Gemini Monster" },
+    { "type": "frametype", "value": "trap" }
+  ],
+  [
+    { "type": "def", "value": "1700" },
+    { "type": "type", "value": "Fusion Monster" },
+    { "type": "race", "value": "Spell Cards" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "atk", "value": "800" },
+    { "type": "frametype", "value": "synchro_pendulum" }
+  ],
+  [
+    { "type": "atk", "value": "800" },
+    { "type": "type", "value": "XYZ Pendulum Effect Monster" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "def", "value": "1600" },
+    { "type": "race", "value": "Sea Serpent" },
+    { "type": "frametype", "value": "link" }
+  ],
+  [
+    { "type": "attributes", "value": "fire" },
+    { "type": "atk", "value": "2400" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "def", "value": "2100" },
+    { "type": "frametype", "value": "link" },
+    { "type": "type", "value": "Pendulum Tuner Effect Monster" }
+  ],
+  [
+    { "type": "def", "value": "600" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "atk", "value": "1100" },
+    { "type": "race", "value": "Cyberse" },
+    { "type": "attributes", "value": "earth" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" }
+  ],
+  [
+    { "type": "race", "value": "Spellcaster" },
+    { "type": "atk", "value": "100" },
+    { "type": "type", "value": "Pendulum Effect Ritual Monster" },
+    { "type": "attributes", "value": "fire" },
+    { "type": "def", "value": "2700" },
+    { "type": "frametype", "value": "spell" }
+  ],
+  [
+    { "type": "attributes", "value": "divine" },
+    { "type": "atk", "value": "2700" },
+    { "type": "def", "value": "2300" },
+    { "type": "type", "value": "Flip Effect Monster" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "frametype", "value": "token" }
+  ],
+  [
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "race", "value": "Wyrm" },
+    { "type": "def", "value": "2500" },
+    { "type": "atk", "value": "2400" },
+    { "type": "type", "value": "Tuner Monster" },
+    { "type": "attributes", "value": "wind" }
+  ],
+  [
+    { "type": "frametype", "value": "effect" },
+    { "type": "attributes", "value": "divine" },
+    { "type": "type", "value": "Synchro Pendulum Effect Monster" },
+    { "type": "atk", "value": "2100" },
+    { "type": "race", "value": "Zombie" },
+    { "type": "def", "value": "1100" }
+  ],
+  [
+    { "type": "type", "value": "Normal Monster" },
+    { "type": "race", "value": "Divine-Beast" },
+    { "type": "attributes", "value": "light" },
+    { "type": "frametype", "value": "normal_pendulum" },
+    { "type": "atk", "value": "100" },
+    { "type": "def", "value": "900" }
+  ]
+]}
