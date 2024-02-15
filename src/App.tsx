@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, MutableRefObject, FocusEvent } from 'react
 import { supabase } from './database';
 import { returnType } from './exports';
 import { Box, Spinner, TableContainer, Table, Tr, Th, Thead, Tbody, Input, Image } from '@chakra-ui/react';
-import { data } from './assets/fs.json';
+import { data } from './fs.json';
 
 function App() {
 
