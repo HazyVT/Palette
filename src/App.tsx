@@ -8,7 +8,8 @@ import { FaSun, FaMoon } from "react-icons/fa6";
 function App() {
 
   const [ isLightMode, setIsLigthMode ] = useState(true);
-  const [ num, setNum ] = useState(0);
+
+  const [num, setNum ] = useState(0);
 
   const theme = themes[num];
 
@@ -18,10 +19,8 @@ function App() {
   const [ accentColor, setAccentColor ] = useState(theme.light[3]);
   const [ textColor, setTextColor ] = useState('black');
 
-
-  const toggleMode = () => {
-    const nl = !isLightMode;
-    setIsLigthMode(!isLightMode);
+  const setAllColors = (nl: boolean, num: number) => {
+    const theme = themes[num];
     if (nl == false) {
       setBgColor(theme.dark[0]);
       setPrimaryColor(theme.dark[1]);
@@ -37,11 +36,23 @@ function App() {
     }
   }
 
+  const toggleMode = () => {
+    const nl = !isLightMode;
+    setIsLigthMode(!isLightMode);
+    setAllColors(nl, num);
+  }
+
+  const generateNewColors = () => {
+    const num = Math.floor(Math.random() * themes.length);
+    setNum(num);
+    setAllColors(isLightMode, num)
+  }
+
   return (
     <>
       <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
       <Box pos='fixed' w='10vw' h='100vh' boxShadow='md' left='0' top='0' display='flex' flexDir='column' alignItems='center' padding={12} justifyContent='space-between'>
-        <Button colorScheme="teal" fontSize={'1vw'}>Generate</Button>
+        <Button onClick={generateNewColors} colorScheme="teal" fontSize={'1vw'}>Generate</Button>
         <Box display='flex' flexDir='column' justifyContent='center' alignItems='center'>
           <Icon as={isLightMode ? FaMoon : FaSun} onClick={toggleMode} cursor="pointer"/>
           <Button w='8vw' color={textColor} cursor="default" marginTop={4} bgColor={bgColor} _hover={{bgColor: bgColor}} fontSize={'1vw'}>Background</Button>

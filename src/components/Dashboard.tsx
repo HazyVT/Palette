@@ -1,4 +1,4 @@
-import { Avatar, AvatarBadge, Box, Heading, Icon, Image, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
+import { Avatar, AvatarBadge, Badge, Box, Heading, Icon, Image, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
 import { WiStars } from "react-icons/wi";
 import { FaHome, FaUsers, FaSearch, FaHeart } from "react-icons/fa";
 import { RiQuestionnaireFill } from "react-icons/ri";
@@ -82,13 +82,18 @@ export default function Dashboard(props: {text: string, background: string, prim
 
     function QuestionBox(props: {name: string, text: string, image: string, icon: string}) {
         return (
-            <Box w='40vw' h="fit-content" bgColor={secondary} padding={4} borderRadius={'10px'} marginTop={4}>
+            <Box w='40vw' h="fit-content" bgColor={secondary} padding={4} borderRadius={'10px'} marginTop={4} boxShadow='md'>
                 <Box display='flex' alignItems='center'>
                     <Avatar src={props.icon}/>
                     <Text marginLeft={4} fontSize={18} fontWeight={500}>{props.name}</Text>
                 </Box>
                 <Text fontSize={18} marginTop={4}>{props.text}</Text>
                 <Image src={props.image} borderRadius={'10px'} marginTop={2} w='800px'/>
+                <Box marginTop={2}>
+                    <Badge variant={'subtle'} bgColor={primary}>Javascript</Badge>
+                    <Badge variant={'subtle'} bgColor={accent} marginLeft={2}>React</Badge>
+                    <Badge variant={'subtle'} bgColor={primary} marginLeft={2}>Typescript</Badge>
+                </Box>
                 <Box marginTop={2} display='flex'>
                     <Box display='flex' alignItems='center'>
                         <Icon as={FaMessage} w={'1rem'} h={'1rem'}/>
@@ -110,7 +115,7 @@ export default function Dashboard(props: {text: string, background: string, prim
                 <Navigation />
                 <Box display='flex'>
                     <SidePanel />
-                    <Box w='68vw' h='68vh' marginTop={4} marginLeft={4} paddingLeft={12} overflow={'scroll'} overflowX='hidden'>
+                    <Box w='50vw' h='68vh' marginTop={4} marginLeft={4} paddingLeft={12} overflow={'clip'}>
                         <Text fontSize={34} fontWeight={600}>ALL QUESTIONS</Text>
                         <QuestionBox icon={"https://avatar.iran.liara.run/public/26"} name={"Andrew Botez"} text={"How do I create a variable that updates in react? Heres what I tried."} image={"/codexample.jpeg"} />
                         <QuestionBox icon={"https://avatar.iran.liara.run/public/94"} name={"Priscilla Dunn"} text={"How do I create a variable that updates in react? Heres what I tried."} image={"/codexample.jpeg"} />
