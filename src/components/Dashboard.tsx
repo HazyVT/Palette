@@ -12,12 +12,18 @@ import { useState } from "react";
 
 
 
-export default function Dashboard(props: {background: string, primary: string, secondary: string, accent: string}) {
+export default function Dashboard(props: {text: string, background: string, primary: string, secondary: string, accent: string}) {
 
     const [ active, setActive ] = useState('home');
     const accent = props.accent;
     const primary = props.primary;
     const secondary = props.secondary;
+    let col = "";
+    if (props.text == "white") {
+        col = "black";
+    } else if (props.text == "black") {
+        col = "white";
+    }
 
     function SidebarTab(props: {icon: typeof FaHome, text: string}) {
         return (
@@ -26,7 +32,7 @@ export default function Dashboard(props: {background: string, primary: string, s
                 alignItems='center' 
                 bgColor={active === props.text.toLocaleLowerCase() ? accent : 'none'} 
                 padding={2} borderRadius={'4px'} 
-                color={active === props.text.toLowerCase() ? 'white' : 'black'}
+                color={active === props.text.toLowerCase() ? col : props.text}
                 onClick={() => setActive(props.text.toLowerCase())}
                 cursor={"pointer"}
             >
@@ -99,12 +105,12 @@ export default function Dashboard(props: {background: string, primary: string, s
     }
     
     return (
-        <Box w='100wh' h='100vh' display='flex' flexDir='column' alignItems='center' justifyContent='center' marginLeft={44}>
-            <Box w='80vw' h='80vh' bgColor={props.background} borderRadius={'10px'} padding={4}>
+        <Box w='100wh' h='100vh' display='flex' flexDir='column' alignItems='center' justifyContent='center' marginLeft={44} color={props.text}>
+            <Box w='80vw' h='80vh' bgColor={props.background} borderRadius={'10px'} padding={4} boxShadow={'lg'}>
                 <Navigation />
                 <Box display='flex'>
                     <SidePanel />
-                    <Box w='68vw' h='68vh' marginTop={4} marginLeft={4} paddingLeft={12} overflow={'scroll'}>
+                    <Box w='68vw' h='68vh' marginTop={4} marginLeft={4} paddingLeft={12} overflow={'scroll'} overflowX='hidden'>
                         <Text fontSize={34} fontWeight={600}>ALL QUESTIONS</Text>
                         <QuestionBox icon={"https://avatar.iran.liara.run/public/26"} name={"Andrew Botez"} text={"How do I create a variable that updates in react? Heres what I tried."} image={"/codexample.jpeg"} />
                         <QuestionBox icon={"https://avatar.iran.liara.run/public/94"} name={"Priscilla Dunn"} text={"How do I create a variable that updates in react? Heres what I tried."} image={"/codexample.jpeg"} />
