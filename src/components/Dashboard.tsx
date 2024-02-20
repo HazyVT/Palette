@@ -67,12 +67,12 @@ export default function Dashboard(props: {text: string, background: string, prim
                         <InputLeftElement>
                             <Icon as={FaSearch} />
                         </InputLeftElement>
-                        <Input variant='flushed' focusBorderColor={props.accent}/>
+                        <Input variant='flushed' id="Input" focusBorderColor={props.accent}/>
                     </InputGroup>
                     <Box display='flex' alignItems='center'>
                         <Icon _hover={{color: secondary}} as={FaGear} w={5} h={5} cursor="pointer" />
                         <Icon _hover={{color: secondary}} as={IoNotifications} w={6} h={6} marginLeft={4} cursor="pointer" />
-                        <Avatar src="https://avatar.iran.liara.run/public" marginLeft={4} cursor={"pointer"}>
+                        <Avatar bgColor={primary} src="https://avatar.iran.liara.run/public" marginLeft={4} cursor={"pointer"}>
                             <AvatarBadge boxSize='1em' bgColor='green.300'/>
                         </Avatar>
                     </Box>
@@ -84,7 +84,7 @@ export default function Dashboard(props: {text: string, background: string, prim
         return (
             <Box w='40vw' h="fit-content" bgColor={secondary} padding={4} borderRadius={'10px'} marginTop={4} boxShadow='md'>
                 <Box display='flex' alignItems='center'>
-                    <Avatar src={props.icon}/>
+                    <Avatar bgColor={primary} src={props.icon}/>
                     <Text marginLeft={4} fontSize={18} fontWeight={500}>{props.name}</Text>
                 </Box>
                 <Text fontSize={18} marginTop={4}>{props.text}</Text>

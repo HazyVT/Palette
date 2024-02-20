@@ -1,23 +1,24 @@
 import { useEffect, useState } from "react"
 import Dashboard from "./components/Dashboard"
-import { Box, Button, Icon } from "@chakra-ui/react";
+import { Box, Button, Icon, Tooltip, useToast } from "@chakra-ui/react";
 import { themes } from './assets/themes.json';
 import { FaSun, FaMoon } from "react-icons/fa6";
 
 
 function App() {
 
-  const [ isLightMode, setIsLigthMode ] = useState(true);
-
   const [num, setNum ] = useState(0);
 
   const theme = themes[num];
+  const toast = useToast();
 
+  const [ isLightMode, setIsLigthMode ] = useState(true);
   const [ bgColor, setBgColor ] = useState(theme.light[0]);
   const [ primaryColor, setPrimaryColor ] = useState(theme.light[1]);
   const [ secondaryColor, setSecondaryColor ]  = useState( theme.light[2]);
   const [ accentColor, setAccentColor ] = useState(theme.light[3]);
   const [ textColor, setTextColor ] = useState('black');
+
 
   const setAllColors = (nl: boolean, num: number) => {
     const theme = themes[num];
@@ -48,6 +49,15 @@ function App() {
     setAllColors(isLightMode, num)
   }
 
+  const copyColor = (color: string) => {
+    navigator.clipboard.writeText(color);
+    toast({
+      title: "Copied to clipboard",
+      status: "success",
+      duration: 2000
+    })
+  } 
+
   return (
     <>
       <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
@@ -55,10 +65,18 @@ function App() {
         <Button onClick={generateNewColors} colorScheme="teal" fontSize={'1vw'}>Generate</Button>
         <Box display='flex' flexDir='column' justifyContent='center' alignItems='center'>
           <Icon as={isLightMode ? FaMoon : FaSun} onClick={toggleMode} cursor="pointer"/>
-          <Button w='8vw' color={textColor} cursor="default" marginTop={4} bgColor={bgColor} _hover={{bgColor: bgColor}} fontSize={'1vw'}>Background</Button>
-          <Button w='8vw' color={textColor} cursor="default" marginTop={4} bgColor={primaryColor} _hover={{bgColor: primaryColor}} fontSize={'1vw'}>Primary</Button>
-          <Button w='8vw' color={textColor} cursor="default" marginTop={4} bgColor={secondaryColor} _hover={{bgColor: secondaryColor}} fontSize={'1vw'}>Secondary</Button>
-          <Button w='8vw' color={textColor} cursor="default" marginTop={4} bgColor={accentColor} _hover={{bgColor: accentColor}} fontSize={'1vw'}>Accent</Button>
+          <Tooltip hasArrow label={bgColor}>
+            <Button w='8vw' onClick={() => {copyColor(bgColor)}} color={textColor} cursor="default" marginTop={4} bgColor={bgColor} _hover={{bgColor: bgColor}} fontSize={'1vw'}>Background</Button>
+          </Tooltip>
+          <Tooltip hasArrow label={primaryColor}>        
+            <Button w='8vw' onClick={() => {copyColor(primaryColor)}} color={textColor} cursor="default" marginTop={4} bgColor={primaryColor} _hover={{bgColor: primaryColor}} fontSize={'1vw'}>Primary</Button>
+          </Tooltip>
+          <Tooltip hasArrow label={secondaryColor}>
+            <Button w='8vw' onClick={() => {copyColor(secondaryColor)}} color={textColor} cursor="default" marginTop={4} bgColor={secondaryColor} _hover={{bgColor: secondaryColor}} fontSize={'1vw'}>Secondary</Button>
+          </Tooltip>
+          <Tooltip hasArrow label={accentColor}>
+            <Button w='8vw' onClick={() => {copyColor(accentColor)}} color={textColor} cursor="default" marginTop={4} bgColor={accentColor} _hover={{bgColor: accentColor}} fontSize={'1vw'}>Accent</Button>
+          </Tooltip>
         </Box>
         <Button w='8vw' colorScheme="teal" fontSize={'1vw'}>Export</Button>
       </Box>
