@@ -18,6 +18,7 @@ export default function Dashboard(props: {text: string, background: string, prim
     const accent = props.accent;
     const primary = props.primary;
     const secondary = props.secondary;
+    const text = props.text
     let col = "";
     if (props.text == "white") {
         col = "black";
@@ -89,10 +90,10 @@ export default function Dashboard(props: {text: string, background: string, prim
                 </Box>
                 <Text fontSize={18} marginTop={4}>{props.text}</Text>
                 <Image src={props.image} borderRadius={'10px'} marginTop={2} w='800px'/>
-                <Box marginTop={2}>
-                    <Badge variant={'subtle'} bgColor={primary}>Javascript</Badge>
-                    <Badge variant={'subtle'} bgColor={accent} marginLeft={2}>React</Badge>
-                    <Badge variant={'subtle'} bgColor={primary} marginLeft={2}>Typescript</Badge>
+                <Box marginTop={2} color={text}>
+                    <Badge variant={'subtle'} bgColor={primary} borderRadius={'2px'} color={text == "white" ? 'black' : 'white'}>Javascript</Badge>
+                    <Badge variant={'subtle'} bgColor={accent} marginLeft={2} color={text == "white" ? 'black' : 'white'}>React</Badge>
+                    <Badge variant={'subtle'} bgColor={primary} marginLeft={2} color={text == "white" ? 'black' : 'white'}>Typescript</Badge>
                 </Box>
                 <Box marginTop={2} display='flex'>
                     <Box display='flex' alignItems='center'>
