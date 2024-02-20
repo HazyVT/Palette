@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import Dashboard from "./components/Dashboard"
+import { useState } from "react";
+import Dashboard from "./components/Dashboard";
 import { Box, Button, Icon, Tooltip, useToast } from "@chakra-ui/react";
 import { themes } from './assets/themes.json';
 import { FaSun, FaMoon } from "react-icons/fa6";
@@ -78,7 +78,6 @@ function App() {
             <Button w='8vw' onClick={() => {copyColor(accentColor)}} color={textColor} cursor="default" marginTop={4} bgColor={accentColor} _hover={{bgColor: accentColor}} fontSize={'1vw'}>Accent</Button>
           </Tooltip>
         </Box>
-        <Button w='8vw' colorScheme="teal" fontSize={'1vw'}>Export</Button>
       </Box>
     </>
   )

@@ -1,4 +1,4 @@
-import { Avatar, AvatarBadge, Badge, Box, Heading, Icon, Image, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
+import { Avatar, AvatarBadge, Badge, Box, Icon, Image, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
 import { WiStars } from "react-icons/wi";
 import { FaHome, FaUsers, FaSearch, FaHeart } from "react-icons/fa";
 import { RiQuestionnaireFill } from "react-icons/ri";
