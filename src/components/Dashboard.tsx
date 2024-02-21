@@ -96,7 +96,7 @@ export default function Dashboard(props: {text: string, background: string, prim
         return (
             <Box w='40vw' h="fit-content" bgColor={secondary} padding={4} borderRadius={'10px'} marginTop={4} boxShadow='md'>
                 <Box display='flex' alignItems='center'>
-                    <SkeletonCircle isLoaded={isAvatarLoading} onLoad={() => setIsAvatarLoading (true)}>
+                    <SkeletonCircle isLoaded={isAvatarLoading} onLoad={() => setIsAvatarLoading(true)}>
                         <Avatar size='sm' bgColor={primary} src={props.icon}/>
                     </SkeletonCircle>
                     <Text marginLeft={4} fontSize={18} fontWeight={500}>{props.name}</Text>
@@ -124,7 +124,7 @@ export default function Dashboard(props: {text: string, background: string, prim
     }
     
     return (
-        <Box w='100wh' h='90vh' display='flex' flexDir='column' alignItems='center' justifyContent='center' marginLeft={44} color={props.text}>
+        <Box w='100wh' h='100vh' display='flex' flexDir='column' alignItems='center' justifyContent='center' marginLeft={44} color={props.text}>
             <Box w='80vw' h='80vh' bgColor={props.background} borderRadius={'10px'} padding={4} shadow='md'>
                 <Navigation />
                 <Box display='flex'>

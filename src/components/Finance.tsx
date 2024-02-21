@@ -188,7 +188,7 @@ export default function Finance(props: {text: string, background: string, primar
                 <Box marginTop={4} padding={4}>
                     <Text>All Posts</Text>
                     <Box marginTop={2}>
-                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                        <Card cursor={"pointer"} direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
                             <Image objectFit='cover' w='40%' src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                             <Stack>
                                 <CardBody>
@@ -196,7 +196,7 @@ export default function Finance(props: {text: string, background: string, primar
                                 </CardBody>
                             </Stack>
                         </Card>
-                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                        <Card cursor={"pointer"} direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
                             <Image objectFit='cover' w='40%' src="https://plus.unsplash.com/premium_photo-1682140999442-e9e2a5f55be6?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                             <Stack>
                                 <CardBody>
@@ -204,7 +204,7 @@ export default function Finance(props: {text: string, background: string, primar
                                 </CardBody>
                             </Stack>
                         </Card>
-                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                        <Card cursor={"pointer"} direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
                             <Image objectFit='cover' w='40%' src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                             <Stack>
                                 <CardBody>
@@ -212,7 +212,7 @@ export default function Finance(props: {text: string, background: string, primar
                                 </CardBody>
                             </Stack>
                         </Card>
-                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                        <Card cursor={"pointer"}  direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
                             <Image objectFit='cover' w='40%' src="https://images.unsplash.com/photo-1519163219899-21d2bb723b3e?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                             <Stack>
                                 <CardBody>
