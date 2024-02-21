@@ -1,4 +1,4 @@
-import { Avatar, AvatarBadge, Badge, Box, Icon, Image, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
+import { Avatar, AvatarBadge, Badge, Box, Icon, Image, Input, InputGroup, InputLeftElement, SkeletonCircle, Text } from "@chakra-ui/react";
 import { WiStars } from "react-icons/wi";
 import { FaHome, FaUsers, FaSearch, FaHeart } from "react-icons/fa";
 import { RiQuestionnaireFill } from "react-icons/ri";
@@ -15,10 +15,15 @@ import { useState } from "react";
 export default function Dashboard(props: {text: string, background: string, primary: string, secondary: string, accent: string}) {
 
     const [ active, setActive ] = useState('home');
+    const [ isLoaded, setIsLoaded ] = useState(false);
+
+
     const accent = props.accent;
     const primary = props.primary;
     const secondary = props.secondary;
     const text = props.text
+
+
     let col = "";
     if (props.text == "white") {
         col = "black";
@@ -73,19 +78,27 @@ export default function Dashboard(props: {text: string, background: string, prim
                     <Box display='flex' alignItems='center'>
                         <Icon _hover={{color: secondary}} as={FaGear} w={5} h={5} cursor="pointer" />
                         <Icon _hover={{color: secondary}} as={IoNotifications} w={6} h={6} marginLeft={4} cursor="pointer" />
-                        <Avatar bgColor={primary} src="https://avatar.iran.liara.run/public" marginLeft={4} cursor={"pointer"}>
-                            <AvatarBadge boxSize='1em' bgColor='green.300'/>
-                        </Avatar>
+                        <SkeletonCircle marginLeft={4} isLoaded={isLoaded} onLoad={() => setIsLoaded(true)}>
+                            <Avatar size='sm' src="https://avatar.iran.liara.run/public" cursor={"pointer"}>
+                                <AvatarBadge boxSize='1em' bgColor='green.300'/>
+                            </Avatar>
+                        </SkeletonCircle>
+                        
                     </Box>
                 </Box>
         )
     }
 
     function QuestionBox(props: {name: string, text: string, image: string, icon: string}) {
+
+        const [ isLoading, setIsLoading ] = useState(false);
+        
         return (
             <Box w='40vw' h="fit-content" bgColor={secondary} padding={4} borderRadius={'10px'} marginTop={4} boxShadow='md'>
                 <Box display='flex' alignItems='center'>
-                    <Avatar bgColor={primary} src={props.icon}/>
+                    <SkeletonCircle isLoaded={isLoaded} onLoad={() => setIsLoaded(true)}>
+                        <Avatar size='sm' bgColor={primary} src={props.icon}/>
+                    </SkeletonCircle>
                     <Text marginLeft={4} fontSize={18} fontWeight={500}>{props.name}</Text>
                 </Box>
                 <Text fontSize={18} marginTop={4}>{props.text}</Text>
