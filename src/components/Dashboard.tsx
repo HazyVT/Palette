@@ -91,12 +91,12 @@ export default function Dashboard(props: {text: string, background: string, prim
 
     function QuestionBox(props: {name: string, text: string, image: string, icon: string}) {
 
-        const [ isLoading, setIsLoading ] = useState(false);
+        const [ isAvatarLoading, setIsAvatarLoading ] = useState(false);
         
         return (
             <Box w='40vw' h="fit-content" bgColor={secondary} padding={4} borderRadius={'10px'} marginTop={4} boxShadow='md'>
                 <Box display='flex' alignItems='center'>
-                    <SkeletonCircle isLoaded={isLoaded} onLoad={() => setIsLoaded(true)}>
+                    <SkeletonCircle isLoaded={isAvatarLoading} onLoad={() => setIsAvatarLoading (true)}>
                         <Avatar size='sm' bgColor={primary} src={props.icon}/>
                     </SkeletonCircle>
                     <Text marginLeft={4} fontSize={18} fontWeight={500}>{props.name}</Text>
