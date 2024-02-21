@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Dashboard from "./components/Dashboard";
-import { Box, Button, Icon, IconButton, Menu, MenuButton, MenuList, Text, Tooltip, useToast } from "@chakra-ui/react";
+import { Box, Button, Icon, IconButton, Menu, MenuButton, MenuList, Text, useToast } from "@chakra-ui/react";
 import { themes } from './assets/themes.json';
 import { FaSun, FaMoon } from "react-icons/fa6";
 import Finance from "./components/Finance";
