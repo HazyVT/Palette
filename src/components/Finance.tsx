@@ -1,10 +1,11 @@
-import { Avatar, Badge, Box, Card, CardBody, CardFooter, Divider, Heading, Icon, IconButton, Image, SkeletonCircle, Stack, Text } from "@chakra-ui/react";
+import { Avatar, Badge, Box, Button, Card, CardBody, CardFooter, Divider, Heading, Icon, IconButton, Image, SkeletonCircle, Stack, Text } from "@chakra-ui/react";
 import { LuLayoutGrid, LuSearch, LuBell } from "react-icons/lu";
 import { useState } from "react";
 import { FaCaretRight, FaMessage } from "react-icons/fa6";
 import { FaBookmark, FaCalendar, FaCompass, FaHeart, FaHome } from "react-icons/fa";
 import { CiMenuKebab } from "react-icons/ci";
 import { MdKeyboardArrowLeft } from "react-icons/md";
+import { shadeColor } from "./Exports";
 
 
 
@@ -109,10 +110,10 @@ export default function Finance(props: {text: string, background: string, primar
                 <IconButton pos='absolute' left='4' top='12' aria-label="back" icon={<MdKeyboardArrowLeft />} bgColor={'white'} _hover={{bgColor: 'white'}} borderRadius='50%'/>
                 <Box pos='absolute' w='8vw' h='3vw' bgColor={secondary} top='12' left='6.4vw' borderRadius={'50px'} display='flex' flexDir='column' justifyContent='center' alignItems='center'>
                     <Box display='flex' alignItems={'center'} marginLeft={1.5}>
-                        <Icon as={FaHeart} w={2.5} h={2.5} />
+                        <Icon as={FaHeart} w={2.5} h={2.5} cursor="pointer" _hover={{color: 'red.300'}}/>
                         <Text fontSize={12} marginLeft={1} marginRight={1}>36.5k</Text>
                         <Divider orientation="vertical" borderColor={text}/>
-                        <Icon as={FaMessage} w={2.5} h={2.5} marginLeft={2} />
+                        <Icon as={FaMessage} w={2.5} h={2.5} marginLeft={2} cursor={"pointer"} _hover={{color: 'blue.300'}}/>
                         <Text fontSize={12} marginLeft={1} marginRight={1}>12.5k</Text>
                     </Box>
                 </Box>
@@ -144,14 +145,93 @@ export default function Finance(props: {text: string, background: string, primar
             </Box>
         )
     }
+
+    function PageThree() {
+
+        const [ isLoading, setIsLoading ] = useState(false);
+
+        return (
+            <Box w='20vw' h='42vw' bgColor={bg} shadow='md' borderRadius='10px' display='flex' flexDir='column' overflow='hidden'>
+                <Box h='4vw' display='flex' alignItems='center' justifyContent='space-between' w='20vw' marginTop={2} padding={4}>
+                    <IconButton aria-label="back" bgColor='white' _hover={{bgColor: 'white'}} icon={<MdKeyboardArrowLeft />} borderRadius='50%' />
+                    <Text>User Name</Text>
+                    <IconButton aria-label="menu" bgColor='white' _hover={{bgColor: 'white'}} icon={<CiMenuKebab />} borderRadius='50%' />
+                </Box>
+                <Box display='flex' justifyContent='space-between' alignItems='center' marginTop={2} padding={2}>
+                    <Box paddingLeft={2} display='flex'>
+                        <SkeletonCircle w={14} h={14} isLoaded={isLoading} onLoad={() => setIsLoading(true)}>
+                            <Avatar w={14} h={14} src={"https://avatar.iran.liara.run/public"}/>
+                        </SkeletonCircle>
+                        <Box marginLeft={2} color={text}>
+                            <Text fontWeight={500}><Text as='span' fontSize={12}>@</Text>username</Text>
+                            <Text fontSize={12}>Tech Enthusiast</Text>
+                        </Box>
+                    </Box>
+                    <Button size='sm' bgColor={secondary} borderRadius={'20px'} _hover={{bgColor: shadeColor(secondary, 15)}} color={text}>Follow</Button>
+                </Box>
+                <Box display='flex' alignItems='center' justifyContent='space-between' marginTop={4} padding={4} paddingLeft={6} paddingRight={6} textAlign='center'>
+                    <Box>
+                        <Text>10</Text>
+                        <Text fontWeight={500}>Posts</Text>
+                    </Box>
+                    <Divider orientation="vertical"/>
+                    <Box>
+                        <Text>325</Text>
+                        <Text fontWeight={500}>Followers</Text>
+                    </Box>
+                    <Divider orientation="vertical"/>
+                    <Box>
+                        <Text>2.6k</Text>
+                        <Text fontWeight={500}>Likes</Text>
+                    </Box>
+                </Box>
+                <Box marginTop={4} padding={4}>
+                    <Text>All Posts</Text>
+                    <Box marginTop={2}>
+                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                            <Image objectFit='cover' w='40%' src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            <Stack>
+                                <CardBody>
+                                    <Heading size='sm'>The Big Tech Change</Heading>
+                                </CardBody>
+                            </Stack>
+                        </Card>
+                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                            <Image objectFit='cover' w='40%' src="https://plus.unsplash.com/premium_photo-1682140999442-e9e2a5f55be6?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            <Stack>
+                                <CardBody>
+                                    <Heading size='sm'>Productivity Hacks</Heading>
+                                </CardBody>
+                            </Stack>
+                        </Card>
+                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                            <Image objectFit='cover' w='40%' src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            <Stack>
+                                <CardBody>
+                                    <Heading size='sm'>Web Dev Made Easy</Heading>
+                                </CardBody>
+                            </Stack>
+                        </Card>
+                        <Card direction={{base: 'column', sm: 'row'}} overflow='hidden' variant='outline' w='17vw' h='11vh' marginTop={2}>
+                            <Image objectFit='cover' w='40%' src="https://images.unsplash.com/photo-1519163219899-21d2bb723b3e?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            <Stack>
+                                <CardBody>
+                                    <Heading size='sm'>Never Stop Learning Programming</Heading>
+                                </CardBody>
+                            </Stack>
+                        </Card>
+                    </Box>
+                </Box>
+            </Box>
+        )
+    }
     
     
     return (
         <Box w='100wh' h='90vh' display='flex' flexDir='row' alignItems='center' justifyContent='space-evenly' marginLeft={44} color={props.text} marginBottom={12}>
             <PageOne />
             <PageTwo />
-            <Box w='20vw' h='42vw' bgColor={bg} shadow='md' borderRadius='10px' padding={4} display='flex'>
-            </Box>
+            <PageThree />
         </Box>
     )
 }
