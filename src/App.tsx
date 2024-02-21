@@ -83,7 +83,7 @@ function App() {
   return (
     <>
       <Box>
-        <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
+        <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor} bglight={shadeColor(bgColor, 25)}/>
         <Finance text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
       </Box>
       <Box w='6vw' h='30vh' pos='fixed' left='8' top='35%' display='flex' flexDir='column' alignItems='center' justifyContent='space-between'>
