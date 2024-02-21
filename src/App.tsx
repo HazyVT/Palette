@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Dashboard from "./components/Dashboard";
-import { Box, Button, Icon, Tooltip, useToast } from "@chakra-ui/react";
+import { Box, Button, Icon, Text, Tooltip, useToast } from "@chakra-ui/react";
 import { themes } from './assets/themes.json';
 import { FaSun, FaMoon } from "react-icons/fa6";
+import Finance from "./components/Finance";
 
 
 function App() {
@@ -60,7 +61,10 @@ function App() {
 
   return (
     <>
-      <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
+      <Box>
+        <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
+        <Finance text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
+      </Box>
       <Box pos='fixed' w='10vw' h='100vh' boxShadow='md' left='0' top='0' display='flex' flexDir='column' alignItems='center' padding={12} justifyContent='space-between'>
         <Button onClick={generateNewColors} colorScheme="teal" fontSize={'1vw'}>Generate</Button>
         <Box display='flex' flexDir='column' justifyContent='center' alignItems='center'>
@@ -79,6 +83,7 @@ function App() {
           </Tooltip>
         </Box>
       </Box>
+      <Text pos='fixed' bottom='4' right='4' color={textColor === "black" ? "black" : "gray.400"}>Made By Hazy | Version 1.0</Text>
     </>
   )
 }

@@ -111,8 +111,8 @@ export default function Dashboard(props: {text: string, background: string, prim
     }
     
     return (
-        <Box w='100wh' h='100vh' display='flex' flexDir='column' alignItems='center' justifyContent='center' marginLeft={44} color={props.text}>
-            <Box w='80vw' h='80vh' bgColor={props.background} borderRadius={'10px'} padding={4} boxShadow={'lg'}>
+        <Box w='100wh' h='90vh' display='flex' flexDir='column' alignItems='center' justifyContent='center' marginLeft={44} color={props.text}>
+            <Box w='80vw' h='80vh' bgColor={props.background} borderRadius={'10px'} padding={4} shadow='md'>
                 <Navigation />
                 <Box display='flex'>
                     <SidePanel />
