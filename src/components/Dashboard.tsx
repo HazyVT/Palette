@@ -21,9 +21,7 @@ import {
   Tbody,
   Td,
   Text,
-  Thead,
-  Tooltip,
-  Tr,
+  Thead, Tr
 } from "@chakra-ui/react";
 import { CiBellOn, CiMenuKebab, CiMountain1, CiSearch } from "react-icons/ci";
 import { BsFillGridFill } from "react-icons/bs";
@@ -31,11 +29,7 @@ import { FaBagShopping, FaBox, FaGear, FaHeart } from "react-icons/fa6";
 import { IoAnalyticsOutline, IoTicket } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import {
-  LegacyRef,
-  ForwardedRef,
-  useState,
-  forwardRef,
-  MutableRefObject,
+  useState
 } from "react";
 import { IconType } from "react-icons";
 import { shadeColor, toRGBA } from "./Exports";
