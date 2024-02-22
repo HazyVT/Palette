@@ -83,7 +83,7 @@ function App() {
   return (
     <>
       <Box>
-        <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor} bglight={shadeColor(bgColor, 25)}/>
+        <Dashboard text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor} bglight={shadeColor(bgColor, 25)} primarylight={primaryShadeLight}/>
         <Finance text={textColor} background={bgColor} primary={primaryColor} secondary={secondaryColor} accent={accentColor}/>
       </Box>
       <Box w='6vw' h='30vh' pos='fixed' left='8' top='35%' display='flex' flexDir='column' alignItems='center' justifyContent='space-between'>
@@ -133,12 +133,20 @@ function App() {
                 <Icon as={FaCircle} color={accentShadeDark} cursor={"pointer"} onClick={() => copyColor(accentShadeDark, "Accent Darker Shade")} />
                 <Text marginLeft={2}>Accent Darker Shade</Text>
               </Box>
+              <Box display='flex' alignItems='center'>
+                <Icon as={FaCircle} color={'#68D391'} cursor={"pointer"} onClick={() => copyColor('#68D391', "Positive Accent")} />
+                <Text marginLeft={2}>Positive Accent</Text>
+              </Box>
+              <Box display='flex' alignItems='center'>
+                <Icon as={FaCircle} color={'#FC8181'} cursor={"pointer"} onClick={() => copyColor('#FC8181', "Negative Accent")} />
+                <Text marginLeft={2}>Negative Accent</Text>
+              </Box>
             </MenuList>
           </Menu>      
         </Box>
       </Box>
       
-      <Text pos='fixed' bottom='4' right='4' color={textColor === "black" ? "black" : "gray.400"}>Made By Hazy | Version 1.0</Text>
+      <Text pos='fixed' bottom='4' right='4' color={textColor === "black" ? "black" : "gray.400"}>Made By Hazy | Version 1.1</Text>
     </>
   )
 }

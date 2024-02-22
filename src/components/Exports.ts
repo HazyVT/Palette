@@ -22,3 +22,11 @@ export function shadeColor(color: string, percent: number) {
 
     return "#"+RR+GG+BB;
 }
+
+export function toRGBA(color: string, opacity: number) {
+    let R = parseInt(color.substring(1,3),16);
+    let G = parseInt(color.substring(3,5),16);
+    let B = parseInt(color.substring(5,7),16);
+
+    return { R: R, G: G, B: B, a: opacity}
+}
